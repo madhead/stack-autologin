@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 @Test
 @ContextConfiguration("classpath:login-test.xml")
-public class LoginToStackOverflow extends AbstractTestNGSpringContextTests {
+public class LoginToStackOverflowTestCase extends AbstractTestNGSpringContextTests {
 	@Autowired
 	private WebDriver driver;
 
